@@ -6,7 +6,7 @@ NETLIFY_CACHE_DIR="$NETLIFY_BUILD_BASE/cache"
 NIM_INSTALL_DIR="$NETLIFY_CACHE_DIR/nim"
 
 install_nim() {
-  local nimver = $NIM_REQUIRED_VER
+  local nimver=$NIM_REQUIRED_VER
 
   rm -rf $NIM_INSTALL_DIR
 
