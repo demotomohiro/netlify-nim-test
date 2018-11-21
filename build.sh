@@ -40,7 +40,7 @@ install_nim_check() {
   fi
 }
 
-export PATH=$NIM_INSTALL_DIR/bin:$PATH
+export PATH=$NIM_INSTALL_DIR/nim/bin:$PATH
 install_nim_check
 nim -v
 nim c -r test.nim
