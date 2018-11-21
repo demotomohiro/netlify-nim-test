@@ -3,7 +3,7 @@
 set -e
 set -u
 
-NIM_REQUIRED_VER="0.19.0"
+NIM_REQUIRED_VER="0.18.0"
 : ${NETLIFY_BUILD_BASE="/opt/buildhome"}
 NETLIFY_CACHE_DIR="$NETLIFY_BUILD_BASE/cache"
 NIM_INSTALL_DIR="$NETLIFY_CACHE_DIR"
@@ -11,7 +11,7 @@ NIM_INSTALL_DIR="$NETLIFY_CACHE_DIR"
 install_nim() {
   local nimver=$NIM_REQUIRED_VER
 
-  rm -rf $NIM_INSTALL_DIR
+  rm -rf $NIM_INSTALL_DIR/nim
 
   wget -N -nv https://nim-lang.org/download/nim-$nimver.tar.xz
   wget -N -nv https://nim-lang.org/download/nim-$nimver.tar.xz.sha256
