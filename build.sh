@@ -8,4 +8,4 @@ source "$src_dir/scripts/installnim.sh"
 
 install_nim_check "0.19.0"
 cd "$src_dir"
-nim c -r -d:release "$src_dir/sampleblog.nim"
+nim c -r -d:release "$src_dir/src/sampleblog.nim"
