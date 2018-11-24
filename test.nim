@@ -3,7 +3,7 @@ from htmlgen import nil
 const commentWidget = """
 <script src="https://utteranc.es/client.js"
         repo="demotomohiro/netlify-nim-test"
-        issue-term="url"
+        issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
         async>
