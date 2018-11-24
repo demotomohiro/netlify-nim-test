@@ -1,6 +1,8 @@
 # netlify-nim-test
 Minimum example of using Nim language on Netlify.
 
+[Web page generated from this repository](https://use-nim-on.netlify.com/)
+
 ## How to use
 * Fork or copy this repository
 * Login to Netlify
