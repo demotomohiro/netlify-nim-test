@@ -13,6 +13,7 @@ const commentWidget = """
   ## https://utteranc.es/
 
 const html = (
+          "<!DOCTYPE html>\n" &
           htmlgen.html(
             htmlgen.head(
               htmlgen.meta(charset="utf-8"),
