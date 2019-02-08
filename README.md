@@ -1,6 +1,8 @@
 # netlify-nim-test
 Minimum example of using Nim language on Netlify.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5f57caa2-581a-45ef-90ab-88c827e0cfad/deploy-status)](https://app.netlify.com/sites/use-nim-on/deploys)
+
 [Web page generated from this repository](https://use-nim-on.netlify.com/)
 
 ## How to use
